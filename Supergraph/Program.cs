@@ -9,15 +9,14 @@ builder.Services.AddSingleton(static sp =>
     return ConnectionMultiplexer.Connect(connectionString);
 });
 
+builder.Services.AddHttpClient("SubgraphTest", c => c.BaseAddress = new Uri("http://localhost:7101/graphql"));
+
 builder.Services
     .AddGraphQLServer()
-    .AddType<CardNumberType>()
     //.AddType(new AnyType("CardNumberType"))
-    //.BindRuntimeType(typeof(string), "CardNumberType")
     .AddRemoteSchemasFromRedis("SubgraphTestSchemaKey",
         sp => sp.GetRequiredService<ConnectionMultiplexer>())
     .InitializeOnStartup();
-
 
 var app = builder.Build();
 
