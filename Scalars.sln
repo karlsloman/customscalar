@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subgraph", "Subgraph\Subgraph.csproj", "{B4D58721-0AED-4DD2-A8BD-3DE37333C53A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supergraph", "Supergraph\Supergraph.csproj", "{C9F3F6E6-1118-492B-8B05-99D56B4D9357}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{659B9F69-0F23-4764-9883-B0DBEC96DCD1}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4D58721-0AED-4DD2-A8BD-3DE37333C53A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D58721-0AED-4DD2-A8BD-3DE37333C53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D58721-0AED-4DD2-A8BD-3DE37333C53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D58721-0AED-4DD2-A8BD-3DE37333C53A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F3F6E6-1118-492B-8B05-99D56B4D9357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F3F6E6-1118-492B-8B05-99D56B4D9357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F3F6E6-1118-492B-8B05-99D56B4D9357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F3F6E6-1118-492B-8B05-99D56B4D9357}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD92D84B-CAE1-4D11-9B8F-ECF1E5E8B6CD}
+	EndGlobalSection
+EndGlobal

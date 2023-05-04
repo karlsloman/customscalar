@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "local": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "launchUrl": "graphql",
+      "applicationUrl": "http://localhost:7101",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Local"
+      }
+    }
+  }
+}
