@@ -13,7 +13,7 @@ builder.Services.AddHttpClient("SubgraphTest", c => c.BaseAddress = new Uri("htt
 
 builder.Services
     .AddGraphQLServer()
-    //.AddType(new AnyType("CardNumberType"))
+    .AddType(new AnyType("CardNumberType"))
     .AddRemoteSchemasFromRedis("SubgraphTestSchemaKey",
         sp => sp.GetRequiredService<ConnectionMultiplexer>())
     .InitializeOnStartup();
