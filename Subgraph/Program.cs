@@ -19,7 +19,6 @@ builder.Services
     .AddQueryType<CardDataQuery>()
     .InitializeOnStartup();
 
-
 var app = builder.Build();
 
 app.MapGraphQL();
