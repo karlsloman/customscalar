@@ -1,5 +1,3 @@
-using Subgraph;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton(static sp =>
